@@ -216,7 +216,7 @@ padding: 10px;
         grid-column: 3/4;
             grid-row: 4/5;
     }
-    /*  */
+  
     .item-7 {
         grid-area: img7;
         grid-column: 4/5;
@@ -315,17 +315,16 @@ padding: 10px;
     .item-22 {
     display:none;
     }
-
+/* On my West-Mec Computer the alternate footer appears on my laptop however, it doesnt appear for my normal laptop.
+When I inspect at home and click flex it outlines the appropriate area as if the proper words
+and footer were to be there.*/
     .item-23 {
-        display: flex;
         font-size: 20px;
-        grid-area:text;
         grid-column: 1/6;
-            grid-row: 8/9;
-            background-color: peachpuff;
-
-            height: 30px;
-            margin-bottom: 0px;
+        grid-row: 8/9;
+        background-color: peachpuff;
+        height: 30px;
+        margin-bottom: 0px;
     }
 
     /* NAV BAR */
