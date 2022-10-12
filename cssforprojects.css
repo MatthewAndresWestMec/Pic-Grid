@@ -110,8 +110,9 @@
     color: red;
     line-height: 40%;
 }
-.item23 {
+.item-23 {
     display: none;
+    visibility: hidden;
 }
 .container2 {
     border: 10px solid white;
